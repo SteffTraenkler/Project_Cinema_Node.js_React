@@ -10,7 +10,6 @@ export default function LowerSeatSingle(props) {
             .then((updatedBooks) => props.setSeats(updatedBooks))
     }
 
-
     return (
         <div onClick={props.seats.booked ? null : updateBookingSeat} className={props.seats.booked ? "bookedSeatDiv" : "lowerSeatDiv"} key={props.seats.id}>
             <h1>{props.seats.id}</h1>

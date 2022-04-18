@@ -1,9 +1,10 @@
 const express = require("express")
 const cors = require("cors")
 const { body, validationResult } = require("express-validator")
-const nodeId = require("node-id")
 // const bookingData = require('./bookingData.json')
 const { readBookedSeats, writeBookedSeats } = require('./bookingStorage')
+
+const { sendEmail } = require('./sendEmail')
 
 // console.log(bookingData.length);
 
@@ -56,10 +57,23 @@ app.get('/kino1/seats/upper', (_, res) => {
         .catch(_ => res.status(500).json({ err: "Unknown error while reading allArray." }))
 })
 
+
+//Email-Message
+
+const bookingMessage = (seatPrice) =>
+    `
+Hallo du wunderbarer Mensch,
+du hast gerade wieder 
+${seatPrice} Umsatz gemacht.
+Lass die Korken knallen.`
+
+
+
 //booking seats
 app.put('/kino1/seats/updateStatus', (req, res) => {
     const targetID = req.body.id
     const booked = req.body.booked
+    const seatPrice = req.body.price
 
     readBookedSeats(apiKey)
         .then(bookedSeats => {
@@ -76,6 +90,18 @@ app.put('/kino1/seats/updateStatus', (req, res) => {
         .then((updatedSeatsArray) => writeBookedSeats(updatedSeatsArray, apiKey))
         .then((writtenSeatsArray) => res.json(writtenSeatsArray))
         .catch(_ => res.status(500).json({ err: "Unknown error while overwriting booked of seat" }))
+
+    sendEmail({
+        to: process.env.MAIL_TARGET,
+        subject: 'new booked Seats!',
+        message: bookingMessage(seatPrice)
+    }).then(() => {
+        console.log('email send');
+        res.end()
+    }).catch((err) => {
+        res.status(400).json({ err: 'Problem with sending mails' })
+    })
+
 })
 
 

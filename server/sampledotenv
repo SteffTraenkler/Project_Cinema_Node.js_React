@@ -1,0 +1,6 @@
+BOOKING_API_KEY = << your API Key >>
+
+GMAIL_USER = << mail address you wish to send from >>
+GMAIL_PASS = << password for the GMAIL_USER mail address >>
+
+MAIL_TARGET = << Mail addres you wish to send to >>
