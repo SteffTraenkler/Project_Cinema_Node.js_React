@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "row": "A",
+    "seatnumber": 1,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 2,
+    "row": "A",
+    "seatnumber": 2,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 3,
+    "row": "A",
+    "seatnumber": 3,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 4,
+    "row": "A",
+    "seatnumber": 4,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 5,
+    "row": "A",
+    "seatnumber": 5,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 6,
+    "row": "A",
+    "seatnumber": 6,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 7,
+    "row": "A",
+    "seatnumber": 7,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 8,
+    "row": "B",
+    "seatnumber": 1,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 9,
+    "row": "B",
+    "seatnumber": 2,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 10,
+    "row": "B",
+    "seatnumber": 3,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 11,
+    "row": "B",
+    "seatnumber": 4,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 12,
+    "row": "B",
+    "seatnumber": 5,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 13,
+    "row": "B",
+    "seatnumber": 6,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 14,
+    "row": "B",
+    "seatnumber": 7,
+    "class": "Loge",
+    "price": "15€",
+    "admin_price": 15,
+    "booked": false
+  },
+  {
+    "id": 15,
+    "row": "C",
+    "seatnumber": 1,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 16,
+    "row": "C",
+    "seatnumber": 2,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 17,
+    "row": "C",
+    "seatnumber": 3,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 18,
+    "row": "C",
+    "seatnumber": 4,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 19,
+    "row": "C",
+    "seatnumber": 5,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 20,
+    "row": "C",
+    "seatnumber": 6,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 21,
+    "row": "C",
+    "seatnumber": 7,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 22,
+    "row": "D",
+    "seatnumber": 1,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 23,
+    "row": "D",
+    "seatnumber": 2,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 24,
+    "row": "D",
+    "seatnumber": 3,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 25,
+    "row": "D",
+    "seatnumber": 4,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 26,
+    "row": "D",
+    "seatnumber": 5,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 27,
+    "row": "D",
+    "seatnumber": 6,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 28,
+    "row": "D",
+    "seatnumber": 7,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 29,
+    "row": "E",
+    "seatnumber": 1,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 30,
+    "row": "E",
+    "seatnumber": 2,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 31,
+    "row": "E",
+    "seatnumber": 3,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 32,
+    "row": "E",
+    "seatnumber": 4,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 33,
+    "row": "E",
+    "seatnumber": 5,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 34,
+    "row": "E",
+    "seatnumber": 6,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  },
+  {
+    "id": 35,
+    "row": "E",
+    "seatnumber": 7,
+    "class": "Parkett",
+    "price": "10€",
+    "admin_price": 10,
+    "booked": false
+  }
+]
