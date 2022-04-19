@@ -11,7 +11,7 @@ const { sendEmail } = require('./sendEmail')
 const dotenv = require('dotenv')
 dotenv.config()
 
-const PORT = 8089
+const PORT = process.env.PORT || 8089
 const app = express()
 
 app.use(cors())

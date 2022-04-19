@@ -60,7 +60,7 @@
     "class": "Loge",
     "price": "15€",
     "admin_price": 15,
-    "booked": true
+    "booked": false
   },
   {
     "id": 8,
@@ -186,7 +186,7 @@
     "class": "Parkett",
     "price": "10€",
     "admin_price": 10,
-    "booked": true
+    "booked": false
   },
   {
     "id": 22,
@@ -240,7 +240,7 @@
     "class": "Parkett",
     "price": "10€",
     "admin_price": 10,
-    "booked": true
+    "booked": false
   },
   {
     "id": 28,
